@@ -37,3 +37,17 @@ My tmux configuration
 <c-a> + {
 <c-a> + }
 ```
+
+### Resizing Panes
+```
+<c-b> : resize-pane -D (Resizes the current pane down)
+<c-b> : resize-pane -U (Resizes the current pane upward)
+<c-b> : resize-pane -L (Resizes the current pane left)
+<c-b> : resize-pane -R (Resizes the current pane right)
+<c-b> : resize-pane -D 20 (Resizes the current pane down by 20 cells)
+<c-b> : resize-pane -U 20 (Resizes the current pane upward by 20 cells)
+<c-b> : resize-pane -L 20 (Resizes the current pane left by 20 cells)
+<c-b> : resize-pane -R 20 (Resizes the current pane right by 20 cells)
+<c-b> : resize-pane -t 2 20 (Resizes the pane with the id of 2 down by 20 cells)
+<c-b> : resize-pane -t -L 20 (Resizes the pane with the id of 2 left by 20 cells)
+```
