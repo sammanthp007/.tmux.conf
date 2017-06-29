@@ -31,3 +31,9 @@ My tmux configuration
 ```
 <c-a> + -
 ```
+
+### Move splits
+```
+<c-a> + {
+<c-a> + }
+```
