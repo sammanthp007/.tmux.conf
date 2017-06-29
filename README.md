@@ -7,8 +7,12 @@ My tmux configuration
 3. Save it as `~/.tmux.conf`
 4. You are good to go
 
-## Some custom key mappings
-### I use <c-a> instead of default <c-b> for convenience
+## Some custom key mappings I use 
+
+### Triggering tmux
+```
+<c-a> instead of default <c-b> for convenience
+```
 
 ### For switching
 ```
