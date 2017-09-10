@@ -4,16 +4,23 @@ My tmux configuration.
 Defaults for zsh shell. If you use bash, then change the first config in [tmux config file](.tmux.conf) to /bin/bash
 
 ## To use
-1. Install tmux in your system
-2. Download the .tmux.conf file
-3. Save it as `~/.tmux.conf`
-4. You are good to go
+1. Install tmux in your system: 
+```
+# For Ubuntu/debian
+sudo apt install tmux
+# For Arch
+sudo pacman -S tmux
+```
+2. Download and set up the dotfile here
+```
+git clone https://github.com/sammanthp007/.tmux.conf.git tmux && mv tmux/.tmux.conf ~/.tmux.conf && rm -rf tmux
+```
 
 ## Some custom key mappings I use 
 
 ### Triggering tmux
 ```
-<c-a> instead of default <c-b> for convenience
+<c-s> instead of default <c-b> for convenience
 ```
 
 ### For switching
