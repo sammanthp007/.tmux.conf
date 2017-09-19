@@ -4,12 +4,12 @@ My tmux configuration.
 Defaults for zsh shell. If you use bash, then change the first config in [tmux config file](.tmux.conf) to /bin/bash
 
 ## Table of Content
-- [To use](#to-use)
+- [Usage](#usage)
 - [Features](#features)
 - [Extras](#extras)
   - [For Mac terminal](#for-mac-terminal)
 
-## To use
+## Usage
 1. Install tmux in your system: 
 ```
 # For Ubuntu/debian
