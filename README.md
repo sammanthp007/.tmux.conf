@@ -76,3 +76,13 @@ brew install reattach-to-user-namespace
  # and add the following to ~/.tmux.conf
  set-option -g default-command "reattach-to-user-namespace -l zsh"
  ```
+
+## To get access remotely
+
+```
+share remote tmux session over ssh:
+
+ssh samman@mycomputerhostname.abc
+tmux list-session
+tmux -a -n 3
+```
